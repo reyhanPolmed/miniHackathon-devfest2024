@@ -5,7 +5,6 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { useState } from "react";
 
 const App = () => {
-  // eslint-disable-next-line no-undef
   const [jenisMakanan, setJenisMakanan] = useState(""); // State untuk menyimpan input user
   const [asalDaerah, setAsalDaerah] = useState(""); // State untuk menyimpan input user
   const [text, setText] = useState([]); // State untuk hasil dari model
